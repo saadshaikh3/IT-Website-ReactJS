@@ -1,0 +1,145 @@
+.feat__hero-section {
+    /* background-color: rgb(123, 207, 233); */
+    background: linear-gradient(45deg, #042d6a 0%, #90aef5 100%);
+    /* padding: 100px 0; */
+    padding: 100px 0 160px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .feat__hero-row {
+    text-align: center;
+  }
+  
+  /* .rowf {
+    display: flex; 
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    
+  } */
+  
+  .colf {
+    /* margin-bottom: 15px 50px; */
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    /* flex: 1;*/
+    max-width: 30%; 
+    margin-left: 34px;
+    border-right: solid 1px #1c2237;
+
+  }
+
+  .colf:nth-child(3){
+      border: none;
+  }
+  
+  .featone__hero-wrapper,   .feattwo__hero-wrapper,   .featthree__hero-wrapper {
+    /* /* max-width: 300px; */
+    /* padding-top: 0; */
+    padding-bottom: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 34px; */
+  }
+
+  .feattwo__hero-wrapper{
+      padding-top: 24px;
+  }
+  
+  .feattwo__hero-wrapper > h1{
+      padding-top: 19px;
+  }
+  .headingf {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #f7f8fa;
+  }
+  
+  .darkf {
+    color: #1c2237;
+    text-align: center;
+  }
+  
+  .darkBg {
+    background-color: #1c2237;
+  }
+  
+  
+  /* .featone__hero-img {
+    max-width: 100%; */
+    /* width: 800px; */
+    /* margin-top: 10px; */
+    /* margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    padding-right: 0;
+  }
+   */
+  /* img {
+    border: 0;
+    max-width: 400px;
+    vertical-align: middle;
+    display: inline-block;
+  } */
+  
+  @media screen and (max-width: 960px) {
+    /* .container { */
+    
+        /* display: flex;
+      flex-direction: column; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* width: 100%; */
+    
+      /* } */
+      .rowf {
+        display: flex; 
+        margin-right: -15px;
+        margin-bottom: -15px;
+        margin-left: -15px;
+        flex-wrap: wrap;
+        align-content:stretch;
+        
+      }
+
+      .colf {
+        max-width: 100%;
+        /* flex-basis: 100%; */
+        border: none;
+        border-bottom: solid 1px #1c2237;
+      }
+
+      
+  }
+  
+  /* @media screen and (max-width: 768px) {
+  
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+
+    .featone__hero-wrapper {
+    padding-bottom: 65px;
+    width: 100%;
+    }
+
+    .colf {
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+  } */
